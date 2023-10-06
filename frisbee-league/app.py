@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Flask is still running!'
+    return 'Flask is still running believe it or not!'
 
 
 @app.route('/data')
