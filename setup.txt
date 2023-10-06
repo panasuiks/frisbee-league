@@ -1,0 +1,18 @@
+Server:
+1) generate ssh key
+ssh-keygen -t ed25519 -C "your_email@example.com"
+2) add ssh key to hetzner
+copy from ~/.ssh/ed25519.pub into hetzner
+3) add user to Server
+4) ssh into server 
+ssh user@5.161.215.115
+
+Developer:
+1) install python (sudo apt install python3)
+2) install pip (sudo apt install python3-pip)
+3) install virtualenv (pip install virtualenv)
+
+1) clone repository
+git clone https://github.com/panasuiks/frisbee-league.git
+2) run source env/bin/execute
+3) 
