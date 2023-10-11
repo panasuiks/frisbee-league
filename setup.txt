@@ -16,3 +16,10 @@ Developer:
 git clone https://github.com/panasuiks/frisbee-league.git
 2) run source env/bin/execute
 3) 
+
+Deploy
+1) cd /var/www/frisbee-league
+2) if requirements have changed, pip install -r requirements.txt
+3) git pull --rebase
+4) sudo pkill gunicorn
+5) sudo supervisorctl start frisbee-league
