@@ -13,6 +13,10 @@ def get_data():
 
     return r
 
+@app.route('/')
+def index():
+      return "Flask is running!"
+
 
 # Running app
 if __name__ == '__main__':
