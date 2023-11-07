@@ -5,7 +5,7 @@ import requests
 
 app = Flask(__name__)
 
-@app.route('/get_data')
+@app.route('/api/get_data')
 @cross_origin(origin='*')
 def get_data():
     r = requests.get("http://ergast.com/api/f1/current/last/results.json")

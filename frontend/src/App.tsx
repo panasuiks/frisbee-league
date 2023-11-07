@@ -7,7 +7,7 @@ function App() {
 
   const [info, setInfo] = useState<any>(null)
   const getData = () => {
-    fetch("http://localhost:8000/api/get_data")
+    fetch("http://5.161.215.115/api/get_data")
     .then(response => {
       return response.json()
     })
